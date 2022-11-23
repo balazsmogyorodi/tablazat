@@ -1,0 +1,31 @@
+table {
+width: 100%;
+/* cellaszegélyek közti rés etüntetése */
+}
+
+td, th {
+border: 1px solid gray;
+
+}
+
+th {
+font-variant:small-caps ;
+background-color:aqua;
+}
+
+
+tbody tr:nth-child(even) {
+background-color:gray;
+
+}
+tbody tr:nth-child(odd) {
+    color: red;
+}
+
+.osszevont {
+    background-color: orangered;
+}
+
+
+
+
